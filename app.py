@@ -35,5 +35,3 @@ else:
 
     # Display in Streamlit
     st.plotly_chart(fig)
-st.subheader("📉 Adidas Actual vs Predicted Prices")
-st.write(adidas_data.tail())  # Show predictions in Streamlit
